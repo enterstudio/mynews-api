@@ -1,4 +1,4 @@
-sites-node-api (WIP...)
+mynews-api (WIP...)
 =========
 
 A RESTful API server providing data access to both Frontend ajax operations and at some point, third-party operations.
