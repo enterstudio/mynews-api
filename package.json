@@ -26,6 +26,6 @@
     "restify": "~2.7.0",
     "should": "~3.2.0",
     "mynews-common": "git+ssh://git@github.com:ruben-verhagen/mynews-common.git",
-    "validator": "~3.5.1"
+    "validator": "~13.6.0"
   }
 }
