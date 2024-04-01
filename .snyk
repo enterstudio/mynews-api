@@ -1,0 +1,186 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - mynews-common > karma > connect > debug:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:debug:20170905'
+        path: mynews-common > karma > connect > debug
+    - mynews-common > karma > connect > body-parser > debug:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:debug:20170905'
+        path: mynews-common > karma > connect > body-parser > debug
+    - mynews-common > karma > connect > compression > debug:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:debug:20170905'
+        path: mynews-common > karma > connect > compression > debug
+    - mynews-common > karma > connect > connect-timeout > debug:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:debug:20170905'
+        path: mynews-common > karma > connect > connect-timeout > debug
+    - mynews-common > karma > connect > express-session > debug:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:debug:20170905'
+        path: mynews-common > karma > connect > express-session > debug
+    - mynews-common > karma > connect > finalhandler > debug:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:debug:20170905'
+        path: mynews-common > karma > connect > finalhandler > debug
+    - mynews-common > karma > connect > morgan > debug:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:debug:20170905'
+        path: mynews-common > karma > connect > morgan > debug
+    - mynews-common > karma > connect > serve-index > debug:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:debug:20170905'
+        path: mynews-common > karma > connect > serve-index > debug
+    - mynews-common > karma > connect > serve-static > send > debug:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:debug:20170905'
+        path: mynews-common > karma > connect > serve-static > send > debug
+  'npm:hawk:20160119':
+    - mynews-common > oriento > request > hawk:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:hawk:20160119'
+        path: mynews-common > oriento > request > hawk
+  'npm:http-signature:20150122':
+    - mynews-common > oriento > request > http-signature:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:http-signature:20150122'
+        path: mynews-common > oriento > request > http-signature
+  'npm:lodash:20180130':
+    - mynews-common > karma > lodash:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:lodash:20180130'
+        path: mynews-common > karma > lodash
+  'npm:mime:20170907':
+    - mynews-common > karma > connect > serve-static > send > mime:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:mime:20170907'
+        path: mynews-common > karma > connect > serve-static > send > mime
+    - mynews-common > oriento > request > mime:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:mime:20170907'
+        path: mynews-common > oriento > request > mime
+    - mynews-common > oriento > request > form-data > mime:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:mime:20170907'
+        path: mynews-common > oriento > request > form-data > mime
+  'npm:minimatch:20160620':
+    - mynews-common > grunt > findup-sync > glob > minimatch:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:minimatch:20160620'
+        path: mynews-common > grunt > findup-sync > glob > minimatch
+    - mynews-common > grunt-cli > findup-sync > glob > minimatch:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:minimatch:20160620'
+        path: mynews-common > grunt-cli > findup-sync > glob > minimatch
+    - mynews-common > grunt > minimatch:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:minimatch:20160620'
+        path: mynews-common > grunt > minimatch
+    - mynews-common > grunt > glob > minimatch:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:minimatch:20160620'
+        path: mynews-common > grunt > glob > minimatch
+    - mynews-common > mocha > glob > minimatch:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:minimatch:20160620'
+        path: mynews-common > mocha > glob > minimatch
+    - mynews-common > grunt-contrib-watch > gaze > globule > minimatch:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:minimatch:20160620'
+        path: mynews-common > grunt-contrib-watch > gaze > globule > minimatch
+    - mynews-common > grunt-mocha-test > mocha > glob > minimatch:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:minimatch:20160620'
+        path: mynews-common > grunt-mocha-test > mocha > glob > minimatch
+    - mynews-common > grunt-contrib-watch > gaze > globule > glob > minimatch:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:minimatch:20160620'
+        path: >-
+          mynews-common > grunt-contrib-watch > gaze > globule > glob >
+          minimatch
+    - mynews-common > karma > minimatch:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:minimatch:20160620'
+        path: mynews-common > karma > minimatch
+  'npm:ms:20170412':
+    - mynews-common > karma > connect > debug > ms:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:ms:20170412'
+        path: mynews-common > karma > connect > debug > ms
+    - mynews-common > karma > connect > connect-timeout > ms:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:ms:20170412'
+        path: mynews-common > karma > connect > connect-timeout > ms
+    - mynews-common > karma > connect > body-parser > debug > ms:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:ms:20170412'
+        path: mynews-common > karma > connect > body-parser > debug > ms
+    - mynews-common > karma > connect > compression > debug > ms:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:ms:20170412'
+        path: mynews-common > karma > connect > compression > debug > ms
+    - mynews-common > karma > connect > connect-timeout > debug > ms:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:ms:20170412'
+        path: mynews-common > karma > connect > connect-timeout > debug > ms
+    - mynews-common > karma > connect > express-session > debug > ms:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:ms:20170412'
+        path: mynews-common > karma > connect > express-session > debug > ms
+    - mynews-common > karma > connect > finalhandler > debug > ms:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:ms:20170412'
+        path: mynews-common > karma > connect > finalhandler > debug > ms
+    - mynews-common > karma > connect > morgan > debug > ms:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:ms:20170412'
+        path: mynews-common > karma > connect > morgan > debug > ms
+    - mynews-common > karma > connect > serve-index > debug > ms:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:ms:20170412'
+        path: mynews-common > karma > connect > serve-index > debug > ms
+    - mynews-common > karma > connect > serve-static > send > ms:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:ms:20170412'
+        path: mynews-common > karma > connect > serve-static > send > ms
+    - mynews-common > karma > connect > serve-static > send > debug > ms:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:ms:20170412'
+        path: mynews-common > karma > connect > serve-static > send > debug > ms
+    - mynews-common > karma > connect > serve-favicon > ms:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:ms:20170412'
+        path: mynews-common > karma > connect > serve-favicon > ms
+  'npm:negotiator:20160616':
+    - mynews-common > karma > connect > compression > accepts > negotiator:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:negotiator:20160616'
+        path: mynews-common > karma > connect > compression > accepts > negotiator
+    - mynews-common > karma > connect > serve-index > accepts > negotiator:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:negotiator:20160616'
+        path: mynews-common > karma > connect > serve-index > accepts > negotiator
+  'npm:qs:20140806-1':
+    - mynews-common > grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:qs:20140806-1'
+        path: mynews-common > grunt-contrib-watch > tiny-lr-fork > qs
+    - mynews-common > oriento > request > qs:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:qs:20140806-1'
+        path: mynews-common > oriento > request > qs
+  'npm:request:20160119':
+    - mynews-common > oriento > request:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:request:20160119'
+        path: mynews-common > oriento > request
+  'npm:ws:20160920':
+    - mynews-common > karma > socket.io > socket.io-client > ws:
+        patched: '2024-04-01T16:38:36.731Z'
+        id: 'npm:ws:20160920'
+        path: mynews-common > karma > socket.io > socket.io-client > ws
