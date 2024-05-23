@@ -22,7 +22,7 @@
     "kue": "~0.7.8",
     "mocha": "~1.18.2",
     "redis": "^0.12.1",
-    "request": "~2.36.0",
+    "request": "~2.88.2",
     "restify": "~2.7.0",
     "should": "~3.2.0",
     "mynews-common": "git+ssh://git@github.com:ruben-verhagen/mynews-common.git",
